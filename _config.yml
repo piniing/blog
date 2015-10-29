@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: 我是副标题
-description: Tsing的hexo博客
+title: 天道酬勤
+subtitle: 天道酬勤
+description: 天道酬勤的博客
 author: Tsing
 language:
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://localhost
-root: /
+url: http://piniing.github.io/blog/
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
