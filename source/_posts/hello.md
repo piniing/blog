@@ -1,38 +1,51 @@
-title: 新的开始
+title: 我爱妍
 date: 2015-10-29 18:44:12
-permalink: abc
+permalink: hello
 tags:
-- hexo
+- SQL
 categories:
-- 日志
-- 第一天
+- 我爱妍
 
 ---
 
-这是**新的开始**，我用hexo创建了第一篇文章。
+这个博客系统用到了 nodejs/hexo，github，七牛云存储，markdown，HTML
 
-通过下面的命令，就可以创建新文章
+**本博客系统使用markdown语法编辑**
+
+SQL查询相关 bash块
 ```{bash}
-D:\workspace\javascript\nodejs-hexo>hexo new 新的开始
-[info] File created at D:\workspace\javascript\nodejs-hexo\source\_posts\新的开始.md
+INSERT INTO table(field1,field2,field3) VALUES(value1,value2,value3)
+SELECT * FROM table WHERE id=1
+UPDATE table SET field1=value1 WHERE id=1
+DELETE FROM table WHERE id=3
 ```
-
-感觉非常好。
-
+## SQL查询相关 代码块
+{% codeblock PHP http://php.net php %}
+INSERT INTO table(field1,field2,field3) VALUES(value1,value2,value3)
+SELECT * FROM table WHERE id=1
+UPDATE table SET field1=value1 WHERE id=1
+DELETE FROM table WHERE id=3
+{% endcodeblock %}
 
 ## 引用
-{% blockquote Seth Godin http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html Welcome to Island Marketing %}
-Every interaction is both precious and an opportunity to delight.
+{% blockquote Seth Godin http://piniing.github.io/blog/ Welcome to Island Marketing %}
+这是引用
 {% endblockquote %}
 
 ## 代码块
-{% codeblock .compact http://underscorejs.org/#compact Underscore.js %}
-.compact([0, 1, false, 2, ‘’, 3]);
-=> [1, 2, 3]
+{% codeblock PHP http://php.net php %}
+$array = array(
+    'key1' => 'value1',
+    'key2' => 'value3',
+    'key3' => 'value3'
+);
 {% endcodeblock %}
 
 ## 链接
-{% link 粉丝日志 http://blog.fens.me true 粉丝日志 %}
+{% link 我的博客 http://piniing.github.io/blog/ true 我的博客 %}
 
-## 图片
-{% img /images/fens.me.png 400 600 这是一张图片 %}
+## 用七牛云存储的图片
+{% img http://7xnw9f.com1.z0.glb.clouddn.com/IMG_0241.JPG?imageView2/1/2/600/h/800 600 800 花 %}
+{% img http://7xnw9f.com1.z0.glb.clouddn.com/IMG_0229.JPG?imageView2/1/2/600/h/800 600 800 宝贝 %}
+{% img http://7xnw9f.com1.z0.glb.clouddn.com/IMG_0230.JPG?imageView2/1/2/600/h/800 600 800 宝贝 %}
+
