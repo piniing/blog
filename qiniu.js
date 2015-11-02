@@ -1,6 +1,4 @@
 var qiniu = require('qiniu');
-qiniu.conf.ACCESS_KEY = 'qgBxyvY0oLDelsJ2UYXgFAJaaDMJy8Vkl-gi0Ezj';
-qiniu.conf.SECRET_KEY = '8ss4RX9jZGps43fzvxTYaICyY6JVWZQoMzoOU1Ih';
 
     var __ = {};
     
