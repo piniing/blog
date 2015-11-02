@@ -45,7 +45,7 @@ $array = array(
 {% link 我的博客 http://piniing.github.io/blog/ true 我的博客 %}
 
 ## 用七牛云存储的图片
-{% img http://7xnw9f.com1.z0.glb.clouddn.com/IMG_0241.JPG?imageView2/1/2/600/h/800 600 800 花 %}
-{% img http://7xnw9f.com1.z0.glb.clouddn.com/IMG_0229.JPG?imageView2/1/2/600/h/800 600 800 宝贝 %}
-{% img http://7xnw9f.com1.z0.glb.clouddn.com/IMG_0230.JPG?imageView2/1/2/600/h/800 600 800 宝贝 %}
+{% img http://7xnw9f.com1.z0.glb.clouddn.com/IMG_0241.JPG?imageView2/1/w/600/h/800 600 800 花 %}
+{% img http://7xnw9f.com1.z0.glb.clouddn.com/IMG_0229.JPG?imageView2/1/w/600/h/800 600 800 宝贝 %}
+{% img http://7xnw9f.com1.z0.glb.clouddn.com/IMG_0230.JPG?imageView2/1/w/600/h/800 600 800 宝贝 %}
 
