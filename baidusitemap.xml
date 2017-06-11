@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://piniing.github.io/blog/blog/2015/10/29/hello/</loc>
+    <lastmod>2017-06-11T16:43:15.000Z</lastmod>
+    <data>
+        <display>
+        <title>这是一个测试页</title>
+        <pubTime>2015-10-29T10:44:12.000Z</pubTime>
+        
+        <tag>SQL</tag>
+         
+         
+           
+             
+              <breadCrumb title="这是一个测试页" url="http://piniing.github.io/blog/blog/categories/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95%E9%A1%B5/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://piniing.github.io/blog/blog/2015/11/02/about/</loc>
+    <lastmod>2015-11-02T06:46:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>关于我</title>
+        <pubTime>2015-11-02T05:41:30.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://piniing.github.io/blog/blog/2015/10/28/hello-world/</loc>
+    <lastmod>2015-10-28T09:58:39.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2015-10-28T09:58:39.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
